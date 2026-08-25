@@ -1,0 +1,5 @@
+def obtener_primero(lista):
+    for elementos in lista: #o(n) lineal
+        print(elementos)
+lista = ["pedro", "pablo", "maria", "juana"]
+obtener_primero(lista)
